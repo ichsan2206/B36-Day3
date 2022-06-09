@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 7vh;
+}
+
+nav .nav-left {
+       display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .nav-left li {
+    display: inline;
+    margin: 10px;
+    font-weight:normal;
+}
+
+nav .nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav .nav-right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+
+nav .nav-right a {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+a:hover {
+   font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E7EA;
+}
+
+.section {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgb(194, 194, 194);
+    align-items: center;
+    justify-content: center;
+}
+
+.right-profile {
+    flex: 40%;
+}
+
+.left-profile {
+    /* background-color: brown; */
+    flex: 70%;
+    padding-left: 40px;
+}
+.left-profile p {
+    color: grey;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    cursor: pointer;    
+}
+
+.download a {
+    padding: 20px;    
+}
+
+.social-media {
+    font-size: 30px;
+}
+
+.social-media i {
+    margin-right: 8px;
+}
+
+
+.container-form {
+       display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E7EA;
+}
+
+form {
+    /* background-color: aqua; */
+    padding: 10px;
+    
+}
+
+form div {
+    margin-top: 15px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+form input, select, textarea {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 223, 223);
+    box-shadow: 0px 0px 15px rgb(194, 194, 194);
+    box-sizing: border-box
+}
+
+form button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    padding: 8px 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 200px;
+}
